@@ -159,7 +159,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
-  floatStrength: 0.5
+  floatStrength: 0.2
   rotationSpeed: 50
 --- !u!114 &4154948453885443198
 MonoBehaviour:
