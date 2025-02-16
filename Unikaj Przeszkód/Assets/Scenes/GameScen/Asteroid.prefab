@@ -68,6 +68,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Asteroid
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ccd04c0fba5ff8140ba0e2c9c2d2dd16, type: 3}
+      propertyPath: m_TagString
+      value: Asteroid
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -78,6 +82,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: ccd04c0fba5ff8140ba0e2c9c2d2dd16, type: 3}
       insertIndex: -1
       addedObject: {fileID: 7830894369390450914}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: ccd04c0fba5ff8140ba0e2c9c2d2dd16, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -5362444336537761534}
   m_SourcePrefab: {fileID: 100100000, guid: ccd04c0fba5ff8140ba0e2c9c2d2dd16, type: 3}
 --- !u!1 &8802542040033468433 stripped
 GameObject:
@@ -132,3 +139,17 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &-5362444336537761534
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8802542040033468433}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7219a349a9fcb8c4aab731b9215b9ea9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 7
+  rotationSpeed: 100
