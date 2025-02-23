@@ -15,7 +15,7 @@ public class PowerUp : MonoBehaviour
 
     void Update()
     {
-        // Power-up porusza siê w stronê gracza (w dó³ ekranu)
+        // Power-up porusza siê w stronê gracza (w kierunku ujemnego Z)
         transform.position += Vector3.back * speed * Time.deltaTime;
 
         // Oscylacyjny ruch góra-dó³

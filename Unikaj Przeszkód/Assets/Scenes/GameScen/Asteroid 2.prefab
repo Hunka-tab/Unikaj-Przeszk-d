@@ -111,7 +111,7 @@ SphereCollider:
   m_Enabled: 1
   serializedVersion: 3
   m_Radius: 0.019981455
-  m_Center: {x: -0.0006812159, y: 0.00009680353, z: 0.00022055209}
+  m_Center: {x: 0.0006812159, y: 0.00009680353, z: 0.00022055209}
 --- !u!54 &3044316088422468151
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -135,7 +135,7 @@ Rigidbody:
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
   m_UseGravity: 0
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -151,5 +151,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7219a349a9fcb8c4aab731b9215b9ea9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 7
-  rotationSpeed: 100
+  speed: 5
+  rotationSpeed: 5
