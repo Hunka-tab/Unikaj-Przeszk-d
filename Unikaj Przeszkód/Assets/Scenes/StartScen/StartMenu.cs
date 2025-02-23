@@ -3,12 +3,15 @@ using UnityEngine.SceneManagement;
 
 public class StartMenu : MonoBehaviour
 {
-    public AudioSource clickSound; // DŸwiêk klikniêcia
+    public AudioSource clickSound; // DŸwiêk klikniêcia (opcjonalnie)
 
     public void StartGame()
     {
-        clickSound.Play(); // Odtwarza dŸwiêk klikniêcia
-        SceneManager.LoadScene("MainGame"); // Wczytuje scenê gry
+        if (clickSound != null)
+        {
+            clickSound.PlayOneShot(clickSound.clip); // Odtwarza dŸwiêk klikniêcia
+        }
+
+        SceneManager.LoadScene("gamescene"); // Wczytuje scenê gry
     }
 }
-
